@@ -1,0 +1,17 @@
+.col-sm-4{
+   text-align: center;
+   left: 45%;
+
+}
+img{
+    border-radius: 20%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+.col-sm-3{
+    background-color: #30064A;
+    width:375px;
+    height: 700px;
+    color: white;
+}
