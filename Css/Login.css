@@ -1,3 +1,4 @@
+/*CSS lOGIN*/
 
 .col-sm-5{
    float: right;
@@ -5,18 +6,22 @@
    width: 555px;
    text-align: center;
    margin-top: 40px;
+   border: solid #4717F6;
+   border-radius: 5px;
+   border-width: 2px;
+   
 
 }
 img{
     border-radius: 20%;
     width: 150px;
     height: 150px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .col-sm-4{
     background-color: #4717F6;
     width: 200px;
-    height: 630px;
+    height: 656px;
     color: white;
     float: left;
 }
@@ -28,3 +33,45 @@ p{
     border-color: #4717F6;
     border-width: 2px;
 }
+.btn1{
+    color: black;
+    border: solid #ca0303;
+    border-radius: 5px;
+    border-width: 2px;
+    height: 40px;
+
+}
+.btn2{
+    color: black;
+    border: solid #0306bdee;
+    border-radius: 5px;
+    border-width: 2px;
+    height: 40px;
+}
+.small{
+    color: #4717F6;
+}
+.cadastro,.Login{
+    font-size: 18px;
+    background-color: #4717F6;
+    color: rgb(247, 247, 247);
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #4717F6;
+    border-style: 10px;
+    margin-top: 10px;
+}
+.cadastro:hover{
+    background-color: #190369;
+    color: aliceblue;
+    border-color: #190369;
+}
+.Login:hover{
+    background-color: #190369;
+    color: aliceblue;
+    border-color: #190369;
+}
+
+/*CSS CADASTRO*/
