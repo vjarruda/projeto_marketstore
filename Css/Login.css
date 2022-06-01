@@ -2,15 +2,13 @@
 
 .col-sm-5{
    float: right;
-   margin-right: 350px;
+   margin-right: 385px;
    width: 555px;
    text-align: center;
    margin-top: 40px;
    border: solid #4717F6;
    border-radius: 5px;
    border-width: 2px;
-   
-
 }
 img{
     border-radius: 20%;
