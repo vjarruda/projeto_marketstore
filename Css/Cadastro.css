@@ -1,18 +1,13 @@
-/*CSS lOGIN*/
+/*CSS CADASTRO*/
 
+label{
+    color: black;
+}
 h4{
     text-align: center;
+    color: black ;
 }
-.col-sm-5{/*login*/
-   float: right;
-   margin-right: 385px;
-   width: 555px;
-   margin-top: 40px;
-   border: solid #4717F6;
-   border-radius: 10px;
-   border-width: 3px;
-}
-img{ /*Imagem do banner*/
+img{ /*imagem do banner*/
     border-radius: 20%;
     margin-top: 40px;
     float: center;
@@ -23,12 +18,22 @@ img{ /*Imagem do banner*/
     max-width: 180px;
     max-height: 180px;
 }
-.col-sm-4{/*banner*/
+.col-sm-4{ /*banner*/
     background-color: #4717F6;
-    width: 200px;
-    height: 656px;
+    width: 500px;
+    height: 700px;
     color: white;
-    float: left;
+    float: right;
+    margin-right: 100px;
+    left: 100px;
+    margin-top: 0%;
+}
+.col-sm-5{ /*cadastro*/
+    width: 555px;
+    border: solid #4717F6;
+    border-radius: 10px;
+    border-width: 3px;
+    left: 200px;
 }
 p{
     margin-top: 45px;
@@ -39,49 +44,39 @@ p{
     border-color: #4717F6;
     border-width: 2px;
 }
-.btn1{/*botao do login google*/
+.btn1{/*Botao login google*/
     color: black;
     border: solid #ca0303;
     border-radius: 5px;
     border-width: 2px;
     height: 40px;
+    float: right;
+    width: 230px;
     text-align: center;
-
 }
-.btn2{/*botao do login facebook*/
+.btn2{/*Botão login facebook*/
     color: black;
     border: solid #0306bdee;
     border-radius: 5px;
     border-width: 2px;
     height: 40px;
+    float: left;
+    width: 230px;
     text-align: center;
 }
-.small{/*Esqueceu a sennha*/
-    color: #4717F6;
+.card{
+    border: none;
 }
-.cadastro,.Login{/*botao de login e cadastro*/
+.cadastre{
     font-size: 18px;
     background-color: #4717F6;
     color: rgb(247, 247, 247);
-    width: 250px;
+    width: 450px;
     height: 40px;
     border-radius: 5px;
     cursor: pointer;
     border-color: #4717F6;
     border-style: 10px;
     margin-top: 10px;
-    margin: 10px;
-}
-.cadastro:hover{/*botao cadastro*/
-    background-color: #190369;
-    color: aliceblue;
-    border-color: #190369;
-}
-.Login:hover{/*botao login*/
-    background-color: #190369;
-    color: aliceblue;
-    border-color: #190369;
-}
-.card{
-    border: none;
+    margin-left: 10px;
 }

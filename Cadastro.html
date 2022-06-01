@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Css/Index.css" rel="stylesheet" id="css">
+    <link href="Css/Index.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/Cadastro.css">
     <title>MarketStore Cadastro</title>
 </head>
 <body>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 
-<div class="row">
-	<aside class="col-sm-4">
-<div class="card">
-<article class="card-body">
-<h4 class="card-title mb-4 mt-1">Cadastro Usuarios</h4>
+
+<nav class="col-sm-4">    
+    <div class="banner">
+        <img src="Logo MarketStore.jpg" alt="Logo">
+    </div>
+        <div>
+            <p>Crie sua Conta para acessar <br> mais informações</p>
+            <p>Preencha com suas informações</p>
+            <p>CNPJ Obrigatório caso seu login seja de vendedor</p>
+        </div>
+    </nav>
+
+	<aside class="col-sm-5">    
+        <div class="card">
+        <article class="card-body">
+            <h4 class="card-title mb-4 mt-1">Cadastro de Usúarios</h4>
 	 <form>
     <div class="form-group">
     	<label>Informe seu email</label>
@@ -25,50 +37,32 @@
         <input class="form-control" placeholder="******" type="password" minlength="9" maxlength="20">
         <label>Informe sua senha novamente</label>
         <input class="form-control" placeholder="******" type="password" minlength="9" maxlength="20">
-        <a class="float-right" href="#">Esqueceu sua senha?</a>
     </div> <!-- form-group// --> 
     <div class="form-group"> 
     <div class="checkbox">
-      <label> <input type="checkbox"> Salvar senha </label>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Cadastre-se  </button>
-    </div> <!-- form-group// -->  
+      <label> <input type="checkbox"> Salvar senha </label> 
     </div> <!-- checkbox .// -->
     </div> <!-- form-group// -->  
 
-
-<!----CADASTRO VENDEDORES---->
-
-
-    <h4 class="card-title mb-4 mt-1">Cadastro Vendedores</h4>
     <form>
         <div class="form-group">
-            <label>Informe seu email</label>
-            <input name="" class="form-control" placeholder="Email" type="email">
+            <label><input type="checkbox"> CPF Obrigatório para Clientes </label> 
+            <input name="" class="form-control" placeholder="***.***.***.**" type="CPF">
         </div> <!-- form-group// -->
+
         <div class="form-group">
-            <label>Informe sua senha</label>
-            <input class="form-control" placeholder="******" type="password" minlength="9" maxlength="20">
-            <label>Informe sua senha novamente</label>
-            <input class="form-control" placeholder="******" type="password" minlength="9" maxlength="20">
-            <a class="float-right" href="#">Esqueceu sua senha?</a>
-        </div> <!-- form-group// --> 
-        <div class="form-group"> 
-        <div class="checkbox">
-          <label> <input type="checkbox"> Salvar senha </label>
-        </div> <!-- checkbox .// -->
-        </div> <!-- form-group// --> 
-    <div class="form-group">
-    	<label>CPF/CNPJ</label>
-        <input name="" class="form-control" placeholder="CPF/CNPJ" type="email">
-    </div> <!-- form-group// -->       
-    <div class="form-group">
-    	<label>Endereço</label>
-        <input name="" class="form-control" placeholder="Endereço" type="email">
-    </div> <!-- form-group// -->      
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Cadastre-se  </button>
-    </div> <!-- form-group// -->                                              
+            <label><input type="checkbox"> CNPJ Obrigatório para vendedor </label> 
+            <input class="form-control" placeholder="******" type="password">
+    </div> <!-- form-group// -->  
+    <div>
+        <p>
+            <a href="" class="btn1 btn-block btn-outline-info"><i class="fab fa-google"></i>   Login via Google</a>
+            <a href="" class="btn2 btn-block btn-outline-info"> <i class="fab fa-facebook-f"></i>   Login via Facebook</a>
+        </p>
+    </div>                                           
+    <div class="botaocadastre-se">
+        <button type="submit" class="cadastre"> Cadastre-se </button>
+    </div>
 </form>
 </article>
 </div> <!-- card.// -->
