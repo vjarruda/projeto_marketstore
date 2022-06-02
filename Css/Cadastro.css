@@ -9,7 +9,7 @@ h4{
 }
 img{ /*imagem do banner*/
     border-radius: 20%;
-    margin-top: 40px;
+    margin-top: 20px;
     float: center;
     text-align: center;
     display: block;
@@ -33,6 +33,7 @@ img{ /*imagem do banner*/
     border-width: 3px;
     left: 250px;
     float: left;
+    margin-top: 20px;
 }
 p{
     margin-top: 45px;
