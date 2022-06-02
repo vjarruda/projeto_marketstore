@@ -5,16 +5,18 @@ h4{
 }
 .col-sm-5{/*login*/
    float: right;
-   margin-right: 385px;
+   margin-right: auto;
    width: 555px;
-   margin-top: 40px;
+   margin-top: 20px;
    border: solid #4717F6;
    border-radius: 10px;
    border-width: 3px;
+   right: 270px;
+   left: auto;
 }
 img{ /*Imagem do banner*/
     border-radius: 20%;
-    margin-top: 40px;
+    margin-top: 20px;
     float: center;
     text-align: center;
     display: block;
@@ -25,8 +27,8 @@ img{ /*Imagem do banner*/
 }
 .col-sm-4{/*banner*/
     background-color: #4717F6;
-    width: 200px;
-    height: 656px;
+    width: auto;
+    height: 750px;
     color: white;
     float: left;
 }

@@ -20,20 +20,19 @@ img{ /*imagem do banner*/
 }
 .col-sm-4{ /*banner*/
     background-color: #4717F6;
-    width: 500px;
+    width: auto;
     height: 700px;
     color: white;
     float: right;
-    margin-right: 100px;
-    left: 100px;
-    margin-top: 0%;
+    left: auto;
 }
 .col-sm-5{ /*cadastro*/
     width: 555px;
     border: solid #4717F6;
     border-radius: 10px;
     border-width: 3px;
-    left: 200px;
+    left: 250px;
+    float: left;
 }
 p{
     margin-top: 45px;
