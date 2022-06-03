@@ -16,77 +16,87 @@ h2{
 }
 h4{
     text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .cardbody{
     border: solid #4717F6;
     border-radius: 10px;
     border-width: 5px;
     box-shadow: 0px 10px 50px #4717F6 ;
-    padding: 25px;
+    padding: 60px;
 }
 .login{
     border: solid #4717F6;
     border-radius: 10px;
     border-width: 5px;
     box-shadow: 10px 10px 50px #4717F6 ;
-    padding: 25px;
+    padding: 30px;
+    margin-right: 100px;
+    display: block;
 }
 img{ /*Imagem do banner*/
     border-radius: 20%;
-    margin-top: 50px;
     float: center;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
     
 }
 .banner{/*banner*/
     background-color: #4717F6;
     width: auto;
-    height: 480px;
+    height: 630px;
     color: white;
     border: solid #4717F6;
     border-width: 2px;
     border-radius: 10px;
     border-width: 5px;
     box-shadow: 0px 10px 50px #4717F6 ;
-    padding: 45px;
-    margin-left: 40px;
+    padding: auto;
+    margin-left: 100px;
 }
 h3{
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: 25px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .form-control{/*inputs*/
+    width: 500px;
     border-color: #4717F6;
-    border-width: 2px;
+    border-width: 3px;
     margin-top: 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
 .botaogoogle{/*botao do login google*/
     color: black;
     border: solid #ca0303;
-    border-radius: 5px;
-    border-width: 2px;
-    width: 280px;
+    border-radius: 10px;
+    border-width: 3px;
+    width: 450px;
     height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
 
 }
 .botaofacebook{/*botao do login facebook*/
     color: black;
     border: solid #0306bdee;
-    border-radius: 5px;
-    border-width: 2px;
-    margin-top: 5px;
-    width: 280px;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-top: 8px;
+    width: 450px;
     height: 40px;
+    margin-left: 30px;
+
 }
 .small{/*Esqueceu a sennha*/
-    color: #4717F6;
+    color: #22009e;
 }
 .botaocadastro,.botaologin{/*botao de login e cadastro*/
     font-size: 18px;
@@ -100,6 +110,7 @@ h3{
     border-style: 10px;
     margin-top: 10px;
     margin: 10px;
+    margin-left: 130px;
 }
 .botaocadastro:hover{/*botao cadastro*/
     background-color: #190369;
