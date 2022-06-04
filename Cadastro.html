@@ -7,67 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Css/Index.css" rel="stylesheet">
     <link rel="stylesheet" href="Css/Cadastro.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <title>MarketStore Cadastro</title>
+    <title>MarketStore Login</title>
 </head>
 
 <body>
-    <aside class="col-sm-5">
-        <div class="card">
-            <article class="card-body">
-                <h4 class="card-title mb-4 mt-1">Cadastro de Usúarios</h4>
-                <form>
-                    <div class="form-group">
-                        <label>Informe seu email</label>
-                        <input name="" class="form-control" placeholder="Email" type="email">
-                    </div>
-                    <div class="form-group">
-                        <label>Informe sua senha</label>
-                        <input class="form-control" placeholder="******" type="password" minlength="9" maxlength="20">
-                        <label>Informe sua senha novamente</label>
-                        <input class="form-control" placeholder="******" type="password" minlength="9" maxlength="20">
-                    </div>
-                    <div class="form-group">
-                        <div class="checkbox">
-                            <label> <input type="checkbox"> Salvar senha </label>
-                        </div>
-                    </div>
 
+    <div class="main">
+        <nav class="banner">
+            <img src="imagem/Logo Market.png" alt="Logo">
+            <div>
+                <h3>Faça o cadastro em nosso site para ter acesso <br> a todos os produtos e beneficios</h3>
+                <h3>Marque a opção Cliente caso <br>seu objetivo seja ser um cliente</h3>
+                <h3>Marque a opção Vendedor caso <br>seu objetivo seja ser um Vendedor</h3>
+            </div>
+        </nav>
+
+        <aside class="login">
+            <div class="card">
+                <article class="cardbody">
+                    <h4>Login</h4>
                     <form>
                         <div class="form-group">
-                            <label><input type="checkbox"> CPF Obrigatório para Clientes </label>
-                            <input name="" class="form-control" placeholder="***.***.***.**" type="CPF">
+                            <label>Informe seu Email</label>
+                            <input name="" class="form-control" placeholder="Email" type="email">
                         </div>
-
                         <div class="form-group">
-                            <label><input type="checkbox"> CNPJ Obrigatório para vendedor </label>
+                            <label>Informe sua Senha</label>
                             <input class="form-control" placeholder="******" type="password">
                         </div>
-                        <div>
-                            <p>
-                                <a href="" class="btn1 btn-block btn-outline-info"><i class="fab fa-google"></i>   Login
-                                    via Google</a>
-                                <a href="" class="btn2 btn-block btn-outline-info"> <i class="fab fa-facebook-f"></i>  
-                                    Login via Facebook</a>
-                            </p>
+                        <div class="form-group">
+                            <label>Informe sua Senha novamente</label>
+                            <input class="form-control" placeholder="******" type="password">
                         </div>
-                        <div class="botaocadastre-se">
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label> <input type="checkbox"> Salvar senha </label>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="Cliente">
+                                <label><input type="checkbox"> Cliente</label>
+                            </div>
+                            <div class="Vendedor">
+                                <label><input type="checkbox"> Vendedor</label>
+                            </div><br><br>
+                            <button class="botaogoogle">Cadastro via Google</button>
+                            <button class="botaofacebook">Cadastro via Facebook</button><br><br>
                             <button type="submit" class="cadastre"> Cadastre-se </button>
-                        </div>
-                    </form>
-            </article>
-        </div>
-    </aside>
-    <nav class="col-sm-4">
-        <div class="banner">
-            <img src="Logo MarketStore.jpg" alt="Logo">
-        </div>
-        <div>
-            <p>Crie sua Conta para acessar <br> mais informações</p>
-            <p>Preencha com suas informações</p>
-            <p>CNPJ Obrigatório caso seu login seja de vendedor</p>
-        </div>
-    </nav>
+                        </form>
+                </article>
+            </div>
+        </aside>
+    </div>
 
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
