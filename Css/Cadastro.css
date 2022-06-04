@@ -24,8 +24,13 @@ h4{
     border: solid #4717F6;
     border-radius: 10px;
     border-width: 5px;
-    box-shadow: 0px 10px 50px #4717F6 ;
     padding: 30px;
+    
+}
+.card{
+    border: solid #4717F6 ;
+    border-radius: 10px;
+    border-width: 5px;
 }
 .Cadastro{
     border: solid #4717F6;
@@ -35,6 +40,8 @@ h4{
     padding: 30px;
     margin-right: 100px;
     display: block;
+    background:#0e0b16 ;
+
 }
 img{ /*Imagem do banner*/
     border-radius: 20%;
@@ -43,8 +50,8 @@ img{ /*Imagem do banner*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
     
 }
 .banner{/*banner*/
