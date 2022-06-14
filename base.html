@@ -1,139 +1,198 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
-        <style>
-            body {
-                font-family: 'Poppins', sans-serif;
-                padding: 0;
-                margin: 0;
-            }
 
-            .menu-superior {
-                width: 100vw;
-                background: purple;
-                height: 62px;
-            }
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: #0B022C;
+        }
 
-            .conteudo {
-                display: flex;
-                height: 92vh;
-                background: purple;
-                color: white;
-            }
+        .menu-superior {
+            width: 100vw;
+            background: #0B022C;
+            height: 62px;
+            display: flex;
+            margin-top: 20px;
+        }
 
-            .conteudo-esquerdo {
-                width: 25vw;
-                padding: 42px;
-            }
+        .conteudo {
+            display: flex;
+            height: 92vh;
+            background: #0B022C;
+            color: white;
+        }
 
-            .conteudo-menu {
-                background: white;
-                color: purple;
-                padding: 5px 25px;
-                border-radius: 10px;
-                box-shadow: 0 16px 36px rgb(0 0 0 / 15%);
-            }
+        .conteudo-esquerdo {
+            width: 25vw;
+            padding: 42px;
+        }
 
-            .conteudo-menu p {
-                font-weight: bold;
-                    text-align: center;
-                    font-size: 1.2rem;
-            }
+        .conteudo-menu {
+            background: white;
+            color: purple;
+            padding: 5px 25px;
+            border-radius: 10px;
+            box-shadow: 0 16px 36px rgb(0 0 0 / 15%);
+        }
 
-            .conteudo-direito {
-                width: 75vw;
-                padding: 42px;
-            }
+        .conteudo-menu p {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .conteudo-direito {
+            width: 75vw;
+            padding: 42px;
+        }
 
 
-            .banner-principal  {
-                background: white;
-                border-radius: 10px;
-                height: 100px;
-            }
+        .banner-principal {
+            background: white;
+            border-radius: 10px;
+            height: 100px;
+        }
 
-            .banner-produtos {
-                display: flex;
-                margin-top: 10px;
-            }
-            .banner-produto {
-                width: 20%;
-                text-align: center;
-                margin-right: 5%;
-                background: white;
-                border-radius: 10px;
-                height: 170px;
-                color: purple;
-                 font-weight: bold;
-            }
+        .banner-produtos {
+            display: flex;
+            margin-top: 10px;
+        }
 
-            .banner-produto img {
-                height: 96px;
-               max-width: 100%;
-            }
+        .banner-produto {
+            width: 20%;
+            text-align: center;
+            margin-right: 5%;
+            background: white;
+            border-radius: 10px;
+            height: 170px;
+            color: purple;
+            font-weight: bold;
+        }
 
-            .banner-produto span {
-                color: black;
-                font-weight: normal;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="menu-superior">
-                 
+        .banner-produto img {
+            height: 96px;
+            max-width: 100%;
+        }
+
+        .banner-produto span {
+            color: black;
+            font-weight: normal;
+        }
+
+        .logo{
+            height: 80px;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        .barra-pesquisa{
+            display: flex;
+            padding: 15px;
+            margin-left: 50px;
+        }
+        .usuario{
+            display: flex;
+        }
+        .barra{
+            width: 600px;
+            height: 45px;
+            border-radius: 5px;
+            border: solid #4717F6;
+        }
+        .icone{
+
+        }
+        .aba{
+            margin-top: 5px;
+            padding: 15px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-superior">
+        <img class="logo" src="C:\Users\Tec-Inf\Downloads\logo.jpg" alt="">
+        <div class="barra-pesquisa">
+            <input class="barra" type="text" placeholder="Clique para pesquisar">
+            <button class="icone" type="submit"><i class="fa fa-search"></i></button>
         </div>
-        <div class="conteudo">
-            <div class="conteudo-esquerdo">
-                <div class="conteudo-menu">
-                    <p>Categoria</p>
-                    <div>
-                        <span><i class="fab fa-google"></i></span>
-                        <span>Eletrônicos</span>
-                    </div>
-                    <div>
-                        <span><i class="fa-laptop"></i></span>
-                        <span>Eletrônicos</span>
-                    </div>
-                    <div>
-                        <span>i</span>
-                        <span>Eletrônicos</span>
-                    </div>
-                    <div>
-                        <span>i</span>
-                        <span>Eletrônicos</span>
-                    </div>
+        <div class="aba">
+            <a href="#">
+                <li class="Carrinho"><i class="fa fa-user"></i>Carrinho</li>
+            </a>
+        </div>
+        <div class="aba">
+            <a href="#">
+                <li class="usuario"><i class="fa fa-user"></i>Login</li>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="conteudo">
+        <div class="conteudo-esquerdo">
+            <div class="conteudo-menu">
+                <p>Categoria</p>
+                <div>
+                    <span><i class="fab fa-google"></i></span>
+                    <span>Eletrônicos</span>
+                </div>
+                <div>
+                    <span><i class="fa-laptop"></i></span>
+                    <span>Eletrônicos</span>
+                </div>
+                <div>
+                    <span>i</span>
+                    <span>Eletrônicos</span>
+                </div>
+                <div>
+                    <span>i</span>
+                    <span>Eletrônicos</span>
                 </div>
             </div>
-            <div class="conteudo-direito">
-                <div class="banner-principal">
-                    
+        </div>
+        <div class="conteudo-direito">
+            <div class="banner-principal">
+
+            </div>
+            <div class="banner-produtos">
+                <div class="banner-produto">
+                    <img src="produto.jpg" />
+                    <p>Playstation 5</p>
+                    <span>R$ 47,00</span>
                 </div>
-                <div class="banner-produtos">
-                    <div class="banner-produto">
-                        <img src="produto.jpg" />
-                        <p>Playstation 5</p>
-                        <span>R$ 47,00</span>
-                    </div>
-                    <div class="banner-produto">
-                        <img src="produto.jpg" />
-                        <p>Playstation 5</p>
-                        <span>R$ 47,00</span>
-                    </div>
-                    <div class="banner-produto">
-                        <img src="produto.jpg" />
-                        <p>Playstation 5</p>
-                        <span>R$ 47,00</span>
-                    </div>
-                    <div class="banner-produto">
-                        <img src="produto.jpg" />
-                        <p>Playstation 5</p>
-                        <span>R$ 47,00</span>
-                    </div>
+                <div class="banner-produto">
+                    <img src="produto.jpg" />
+                    <p>Playstation 5</p>
+                    <span>R$ 47,00</span>
+                </div>
+                <div class="banner-produto">
+                    <img src="produto.jpg" />
+                    <p>Playstation 5</p>
+                    <span>R$ 47,00</span>
+                </div>
+                <div class="banner-produto">
+                    <img src="produto.jpg" />
+                    <p>Playstation 5</p>
+                    <span>R$ 47,00</span>
                 </div>
             </div>
         </div>
-    </body>
-    </html>
+    </div>
+    
+</body>
+
+</html>
