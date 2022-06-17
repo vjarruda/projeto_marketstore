@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #0B022C;
+}
+
+.menu-superior {
+    width: 100vw;
+    background: #0B022C;
+    height: 62px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.conteudo {
+    display: flex;
+    height: 92vh;
+    background: #0B022C;
+    color: white;
+}
+
+.conteudo-esquerdo {
+    margin-top: 170px;
+padding: 50px;
+}
+
+.conteudo-menu {
+    background: white;
+    color: purple;
+    padding: 5px 25px;
+    border-radius: 10px;
+    box-shadow: 0 16px 36px rgb(0 0 0 / 15%);
+}
+
+.conteudo-menu p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.conteudo-direito {
+    width: 75vw;
+    padding: 30px;
+}
+
+
+.banner-principal {
+    background: white;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.banner-produtos {
+    display: flex;
+    margin-top: 10px;
+}
+
+.banner-produto {
+    width: 20%;
+    text-align: center;
+    margin-right: 5%;
+    background: white;
+    border-radius: 10px;
+    height: 170px;
+    color: purple;
+    font-weight: bold;
+}
+
+.banner-produto img {
+    height: 96px;
+    max-width: 100%;
+}
+
+.banner-produto span {
+    color: black;
+    font-weight: normal;
+}
+
+.logo{
+    height: 80px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.barra-pesquisa{
+    display: flex;
+    padding: 15px;
+    margin-left: 50px;
+}
+.usuario{
+    display: flex;
+}
+.barra{
+    width: 600px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid #4717F6;
+}
+.icone{
+
+}
+.aba{
+    margin-top: 5px;
+    padding: 15px;
+    margin-left: 20px;
+}
