@@ -88,20 +88,38 @@ padding: 50px;
     padding: 15px;
     margin-left: 50px;
 }
-.usuario{
-    display: flex;
-}
+
 .barra{
     width: 600px;
     height: 45px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: solid #4717F6;
 }
 .icone{
-
+ height: 46px;
+ border-radius: 10px;
+ color: #4717F6;
 }
 .aba{
     margin-top: 5px;
     padding: 15px;
     margin-left: 20px;
 }
+.topico{
+    background-color: #0B022C;
+    padding-left: 30%;
+    padding-top: 10px;
+}
+
+.topicos1{
+    border: solid rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: #4717F6;
+    padding: 5px;
+}
+.topico2{
+ color:white;
+ font-size: 15px;
+}
+
