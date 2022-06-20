@@ -7,9 +7,10 @@ h3.h3 {
 
 /********************* shopping Demo-1 **********************/
 .product-grid {
+    margin-top: 12px;
     font-family: Raleway, sans-serif;
     text-align: center;
-    padding: 0 0 72px;
+    padding: 0 0 65px;
     border: 1px solid rgba(0, 0, 0, .1);
     overflow: hidden;
     position: relative;
@@ -17,6 +18,8 @@ h3.h3 {
 }
 
 .product-grid .product-image {
+    border: solid #4717F6;
+    border-radius: 5px;
     position: relative;
     transition: all .3s ease 0s
 }
@@ -27,7 +30,7 @@ h3.h3 {
 
 .product-grid .product-image img {
     width: 100%;
-    height: auto
+    height: 180px;
 }
 
 .product-grid .pic-1 {
@@ -90,7 +93,7 @@ h3.h3 {
 
 .product-grid .social li a:hover {
     color: #fff;
-    background-color: #ef5777
+    background-color: #4717F6
 }
 
 .product-grid .social li a:after,
@@ -128,7 +131,7 @@ h3.h3 {
 .product-grid .product-discount-label,
 .product-grid .product-new-label {
     color: #fff;
-    background-color: #b757ef;
+    background-color: #4717F6;
     font-size: 12px;
     text-transform: uppercase;
     padding: 2px 7px;
@@ -155,18 +158,21 @@ h3.h3 {
 }
 
 .product-grid .rating li.disable {
-    color: rgba(0, 0, 0, .2)
+    color: rgba(241, 0, 0, 0.2)
 }
 
 .product-grid .product-content {
-    background-color: #fff;
+    border: solid #4717F6;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
     text-align: center;
     padding: 12px 0;
     margin: 0 auto;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -27px;
+    bottom: -25px;
     z-index: 1;
     transition: all .3s
 }
@@ -185,7 +191,7 @@ h3.h3 {
 }
 
 .product-grid .title a {
-    color: #828282
+    color: #4717F6
 }
 
 .product-grid .title a:hover,
@@ -205,7 +211,7 @@ h3.h3 {
 }
 
 .product-grid .price span {
-    color: #999;
+    color: rgb(51, 50, 50);
     font-size: 13px;
     font-weight: 400;
     text-decoration: line-through;
@@ -10940,6 +10946,9 @@ button.close {
 
 .carousel-inner {
     position: relative;
+    border-radius: 8px;
+    border: solid #4717F6;
+    border-width: 2px;
     width: 100%;
     overflow: hidden
 }
@@ -11099,8 +11108,8 @@ button.close {
 .carousel-control-prev-icon {
     display: inline-block;
     width: 20px;
-    height: 20px;
-    background: transparent no-repeat center center;
+    height: 50px;
+    background: #4717F6;
     background-size: 100% 100%
 }
 
@@ -11138,10 +11147,11 @@ button.close {
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, .5)
+    background-color: #4717F6
 }
 
 .carousel-indicators li::before {
+
     position: absolute;
     top: -10px;
     left: 0;

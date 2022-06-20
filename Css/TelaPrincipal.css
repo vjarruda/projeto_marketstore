@@ -15,28 +15,43 @@ body {
 
 .conteudo {
     display: flex;
-    height: 92vh;
+    height: 100%;
     background: #0B022C;
     color: white;
+    position: relative;
 }
 
 .conteudo-esquerdo {
-    margin-top: 170px;
-padding: 50px;
+    margin-top: 200px;
+    padding-left: 30px;
+}
+
+.conteudo-esquerdo1 {
+    margin-top: 200px;
 }
 
 .conteudo-menu {
+    margin-top: -170px;
     background: white;
-    color: purple;
-    padding: 5px 25px;
+    color: #4717F6;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 16px 36px rgb(0 0 0 / 15%);
+    width: 230px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 16px 36px rgba(71, 0, 153, 0.863);
+
 }
 
 .conteudo-menu p {
-    font-weight: bold;
+    fontweight: bold;
     text-align: center;
     font-size: 1.2rem;
+}
+
+.menu {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .conteudo-direito {
@@ -46,14 +61,22 @@ padding: 50px;
 
 
 .banner-principal {
-    background: white;
     border-radius: 10px;
     height: 100px;
+    width: 900px;
 }
 
 .banner-produtos {
     display: flex;
     margin-top: 10px;
+}
+
+.img-banner {
+    padding-left: 100px;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+
 }
 
 .banner-produto {
@@ -77,49 +100,57 @@ padding: 50px;
     font-weight: normal;
 }
 
-.logo{
+.logo {
     height: 80px;
     width: 200px;
     margin-left: 50px;
     margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 10px 5px 5px #4717F6;
 }
-.barra-pesquisa{
+
+.barra-pesquisa {
     display: flex;
     padding: 15px;
     margin-left: 50px;
 }
 
-.barra{
+.barra {
     width: 600px;
     height: 45px;
     border-radius: 10px;
     border: solid #4717F6;
 }
-.icone{
- height: 46px;
- border-radius: 10px;
- color: #4717F6;
+
+.icone {
+    height: 46px;
+    border-radius: 10px;
+    color: #4717F6;
 }
-.aba{
+
+.aba {
     margin-top: 5px;
     padding: 15px;
     margin-left: 20px;
+    background-color: #fdf5f5;
+    border-radius: 10px;
 }
-.topico{
+
+.topico {
     background-color: #0B022C;
     padding-left: 30%;
     padding-top: 10px;
 }
 
-.topicos1{
+.topicos1 {
     border: solid rgb(255, 255, 255);
     border-width: 1px;
     border-radius: 3px;
     background-color: #4717F6;
     padding: 5px;
 }
-.topico2{
- color:white;
- font-size: 15px;
-}
 
+.topico2 {
+    color: white;
+    font-size: 15px;
+}
