@@ -5,31 +5,40 @@ body {
   width: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #0B022C;
+  background: #0B022C;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
-  display: flex;
 }
 
 /* Columns */
 .left-column {
   width: 60%;
   position: relative;
+  float: left;
 }
+.video{
+    margin-top: 310px;
+    float: left;
+    border:solid #4717F6;
+    box-shadow: 2px 5px 5px 5px #f7f7f7;
+}
+
 
 .right-column {
   width: 35%;
   margin-top: 60px;
+  float: right;
 }
 
 
 /* Left Column */
 .left-column img {
   width: 90%;
+  height: 300px;
   position: absolute;
   left: 0;
   top: 0;
