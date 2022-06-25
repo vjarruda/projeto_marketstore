@@ -146,7 +146,7 @@ body {
   background-color: white;
   box-shadow: 2px 2px 2px 2px #4717F6;
   cursor: pointer;
-  transition: all .5s;
+  transition: all .2s;
 }
 
 .cable-choose button:hover,
@@ -208,7 +208,7 @@ body {
   text-decoration: none;
   padding: 15px;
   margin-left: 10px;
-  transition: all .5s;
+  transition: all .2s;
 
 }
 
