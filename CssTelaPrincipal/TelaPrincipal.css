@@ -1,0 +1,156 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #0B022C;
+}
+
+.menu-superior {
+    width: 100vw;
+    background: #0B022C;
+    height: 62px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.conteudo {
+    display: flex;
+    height: 100%;
+    background: #0B022C;
+    color: white;
+    position: relative;
+}
+
+.conteudo-esquerdo {
+    margin-top: 200px;
+    padding-left: 30px;
+}
+
+.conteudo-esquerdo1 {
+    margin-top: 200px;
+}
+
+.conteudo-menu {
+    margin-top: -170px;
+    background: white;
+    color: #4717F6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 230px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 16px 36px rgba(71, 0, 153, 0.863);
+
+}
+
+.conteudo-menu p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.menu {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo-direito {
+    width: 75vw;
+    padding: 30px;
+}
+
+
+.banner-principal {
+    border-radius: 10px;
+    height: 100px;
+    width: 960px;
+}
+
+.banner-produtos {
+    display: flex;
+    margin-top: 10px;
+}
+
+.img-banner {
+    padding-left: 100px;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+
+}
+
+.banner-produto {
+    width: 20%;
+    text-align: center;
+    margin-right: 5%;
+    background: white;
+    border-radius: 10px;
+    height: 170px;
+    color: purple;
+    font-weight: bold;
+}
+
+.banner-produto img {
+    height: 96px;
+    max-width: 100%;
+}
+
+.banner-produto span {
+    color: black;
+    font-weight: normal;
+}
+
+.logo {
+    height: 80px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 10px 5px 5px #4717F6;
+}
+
+.barra-pesquisa {
+    display: flex;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.barra {
+    width: 600px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid #4717F6;
+}
+
+.icone {
+    height: 46px;
+    border-radius: 10px;
+    color: #4717F6;
+}
+
+.aba {
+    margin-top: 5px;
+    padding: 15px;
+    margin-left: 20px;
+    background-color: #fdf5f5;
+    border-radius: 10px;
+}
+
+.topico {
+    background-color: #0B022C;
+    padding-left: 30%;
+    padding-top: 10px;
+}
+
+.topicos1 {
+    border: solid rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: #4717F6;
+    padding: 5px;
+}
+
+.topico2 {
+    color: white;
+    font-size: 15px;
+}
