@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CssLogin&Cadastro/Index.css" rel="stylesheet">
+    <link rel="stylesheet" href="CssLogin&Cadastro/Cadastro.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <title>MarketStore Cadastro</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <nav class="banner">
+            <img src="imagem/Logo Market.png" alt="Logo">
+            <div>
+                <h3>Faça o cadastro em nosso site para ter acesso <br> a todos os produtos e beneficios</h3>
+                <h3>Marque a opção Cliente caso <br>seu objetivo seja ser um cliente</h3>
+                <h3>Marque a opção Vendedor caso <br>seu objetivo seja ser um Vendedor</h3>
+            </div>
+        </nav>
+
+        <aside class="Cadastro">
+            <div class="card">
+                <article class="cardbody">
+                    <h1 class="display-4">Cadastre-se</h1>
+                    <form id="formCadastro">
+                        <button class="botaogoogle"><i class="fab fa-google"></i>   Cadastro via Google</button>
+                        <button class="botaofacebook"><i class="fab fa-facebook-f"></i>   Cadastro via Facebook</button><br><br><br>
+                        <div class="form-group">
+                            <label for="nome">Informe seu Nome</label>
+                            <input name="" class="form-control" id="nome" placeholder="Nome" type="Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Informe seu Email</label>
+                            <input name="" class="form-control" id="email" placeholder="Email" type="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="key">CPF</label>
+                            <input class="form-control" placeholder="CPF" id="key" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Informe sua Senha</label>
+                            <input class="form-control" placeholder="******" id="senha" type="password" minlength="9">
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label> <input type="checkbox"> Salvar senha </label>
+                            </div>
+                        </div>
+                        <div class="Cliente">
+                            <label><input type="checkbox"> Cliente</label>
+                        </div>
+                        <div class="Vendedor">
+                            <label><input type="checkbox"> Vendedor</label>
+                        </div><br><br>
+                        <button type="submit" class="cadastre"> Cadastre-se </button>
+                    </form>
+
+                </article>
+            </div>
+        </aside>
+    </div>
+
+    <script>
+
+        function store() { //armazena itens no localStorage
+            var nome = document.getElementById('nome').value;
+            var senha = document.getElementById('senha').value;
+            var key = document.getElementById('key').value;
+            var email = document.getElementById('email').value;
+
+            const signup = {
+                nome: nome,
+                email: email,
+                key: key,
+                senha: senha,
+
+
+
+            }
+            window.localStorage.setItem(key, JSON.stringify(signup));
+
+        }
+
+        window.onload = function () { //carrega as informações guardadas no localstorage
+            document.getElementById("formCadastro").onsubmit = store
+
+        }
+    </script>
+</body>
+
+</html>
