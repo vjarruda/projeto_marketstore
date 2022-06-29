@@ -32,6 +32,7 @@
                         <button class="botaogoogle"><i class="fab fa-google"></i>   Cadastro via Google</button>
                         <button class="botaofacebook"><i class="fab fa-facebook-f"></i>   Cadastro via
                             Facebook</button><br><br><br>
+                        <!--Formulários-->
                         <div class="form-group">
                             <label for="nome">Informe seu Nome</label>
                             <input name="" class="form-control" id="nome" placeholder="Nome" type="Nome">
@@ -66,10 +67,9 @@
             </div>
         </aside>
     </div>
-
+    <!--Função para armazenar informações no localstorage-->
     <script>
-
-        function store() { //armazena itens no localStorage
+        function store() {// armazena as informações
             var nome = document.getElementById('nome').value;
             var senha = document.getElementById('senha').value;
             var key = document.getElementById('key').value;
